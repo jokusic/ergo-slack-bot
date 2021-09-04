@@ -1,0 +1,21 @@
+{
+  "name": "ergo-bot",
+  "version": "1.0.0",
+  "description": "Slack bot that provides ergonomic stretches to a developer every specified interval and on demand",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "Botsly",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "jest": "^24.9.0",
+    "slackbots": "^1.2.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "index.js"
+    ]
+  }
+}
